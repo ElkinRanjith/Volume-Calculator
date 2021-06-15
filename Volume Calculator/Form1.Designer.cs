@@ -56,6 +56,9 @@ namespace Volume_Calculator
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -139,6 +142,7 @@ namespace Volume_Calculator
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button8);
             this.tabPage2.Controls.Add(this.textBox3);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.label3);
@@ -203,6 +207,7 @@ namespace Volume_Calculator
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button9);
             this.tabPage3.Controls.Add(this.button5);
             this.tabPage3.Controls.Add(this.label5);
             this.tabPage3.Controls.Add(this.textBox4);
@@ -246,6 +251,7 @@ namespace Volume_Calculator
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button10);
             this.tabPage4.Controls.Add(this.button6);
             this.tabPage4.Controls.Add(this.label7);
             this.tabPage4.Controls.Add(this.textBox6);
@@ -345,6 +351,45 @@ namespace Volume_Calculator
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Lime;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Location = new System.Drawing.Point(371, 214);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(129, 33);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Clear";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Lime;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(372, 141);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(129, 33);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "Clear";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Lime;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Location = new System.Drawing.Point(371, 215);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(129, 33);
+            this.button10.TabIndex = 9;
+            this.button10.Text = "Clear";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -401,6 +446,9 @@ namespace Volume_Calculator
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label answerLabel;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
     }
 }
 
