@@ -87,5 +87,43 @@ namespace Volume_Calculator
         {
             this.tabPage3.Controls.Remove(this.answerLabel2);
         }
+
+        private void tabPage5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            String text = this.textBox8.Text;
+            Double baseDouble = Double.Parse(text);
+            String text2 = this.textBox7.Text;
+
+            String text3 = this.textBox9.Text;
+
+            Double prismHeight = Double.Parse(text3);
+
+            Double triangleHeight = Double.Parse(text2);
+
+            Double areaOfTriangle = triangleHeight * baseDouble * 1 / 2;
+
+            Double volumeOfPrism = areaOfTriangle * prismHeight;
+
+            String answer = volumeOfPrism.ToString();
+
+
+
+            answerLabel3 = new Label();
+            answerLabel3.Font = new Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            answerLabel3.Location = new Point(240, 372);
+            answerLabel3.Text = answer;
+
+            this.tabPage5.Controls.Add(answerLabel3);
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.tabPage5.Controls.Remove(answerLabel3);
+        }
     }
 }
