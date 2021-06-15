@@ -247,6 +247,7 @@ namespace Volume_Calculator
             this.button9.TabIndex = 9;
             this.button9.Text = "Clear";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button5
             // 
@@ -260,16 +261,17 @@ namespace Volume_Calculator
             this.button5.TabIndex = 8;
             this.button5.Text = "Calculate";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(98, 85);
+            this.label5.Location = new System.Drawing.Point(112, 83);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 22);
+            this.label5.Size = new System.Drawing.Size(68, 22);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Height: ";
+            this.label5.Text = "Edge: ";
             // 
             // textBox4
             // 
@@ -454,6 +456,7 @@ namespace Volume_Calculator
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label answerLabel2;
     }
 }
 
