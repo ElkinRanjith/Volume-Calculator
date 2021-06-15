@@ -54,6 +54,8 @@ namespace Volume_Calculator
             String answerText = answer.ToString();
 
             this.answerLabel = new Label();
+            this.answerLabel.Location = new Point(286, 298);
+            this.answerLabel.Font = new Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.answerLabel.Text = answerText;
 
             this.tabPage1.Controls.Add(this.answerLabel);
