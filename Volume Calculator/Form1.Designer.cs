@@ -236,10 +236,11 @@ namespace Volume_Calculator
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.Lime;
+            this.button9.BackColor = System.Drawing.Color.Red;
             this.button9.Cursor = System.Windows.Forms.Cursors.Default;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Location = new System.Drawing.Point(372, 141);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(129, 33);
@@ -297,10 +298,11 @@ namespace Volume_Calculator
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.Lime;
+            this.button10.BackColor = System.Drawing.Color.Red;
             this.button10.Cursor = System.Windows.Forms.Cursors.Default;
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Location = new System.Drawing.Point(371, 215);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(129, 33);
