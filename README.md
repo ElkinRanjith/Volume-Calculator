@@ -1,5 +1,7 @@
 # Volume-Calculator
-This calculator isn't any calculator, it can actually calculate the volume of 3D objects! This includes a sphere, a cone, a cube, a cylinder, a triangular prism, and a rectuangular prism. 
+This calculator isn't any calculator, it can actually calculate the volume of 3D objects! This includes a sphere, a cone, a cube, a cylinder, a triangular prism, and a rectuangular prism. Unfortunately, you must press the clear button before the next calculation.
+
+![image](https://user-images.githubusercontent.com/70111167/121974173-b6460380-cd33-11eb-9c0b-ec19266e4093.png)
 
 
 # Download
