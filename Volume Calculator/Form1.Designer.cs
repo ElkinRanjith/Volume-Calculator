@@ -38,16 +38,19 @@ namespace Volume_Calculator
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button9 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button10 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -56,9 +59,6 @@ namespace Volume_Calculator
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -104,10 +104,11 @@ namespace Volume_Calculator
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.Lime;
+            this.button7.BackColor = System.Drawing.Color.Red;
             this.button7.Cursor = System.Windows.Forms.Cursors.Default;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Location = new System.Drawing.Point(372, 141);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(129, 33);
@@ -155,6 +156,21 @@ namespace Volume_Calculator
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Cone";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Red;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(371, 214);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(129, 33);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Clear";
+            this.button8.UseVisualStyleBackColor = false;
             // 
             // textBox3
             // 
@@ -218,6 +234,19 @@ namespace Volume_Calculator
             this.tabPage3.Text = "Cube";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Lime;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(372, 141);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(129, 33);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "Clear";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Lime;
@@ -265,6 +294,19 @@ namespace Volume_Calculator
             this.tabPage4.Text = "Cylinder";
             this.tabPage4.UseVisualStyleBackColor = true;
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Lime;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Location = new System.Drawing.Point(371, 215);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(129, 33);
+            this.button10.TabIndex = 9;
+            this.button10.Text = "Clear";
+            this.button10.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
@@ -350,45 +392,6 @@ namespace Volume_Calculator
             this.button3.Text = "x";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Lime;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(371, 214);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(129, 33);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Clear";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.Lime;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(372, 141);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(129, 33);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "Clear";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.Lime;
-            this.button10.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(371, 215);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(129, 33);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Clear";
-            this.button10.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
