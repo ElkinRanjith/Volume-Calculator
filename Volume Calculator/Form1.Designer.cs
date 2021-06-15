@@ -1,4 +1,4 @@
-﻿
+
 using System;
 
 namespace Volume_Calculator
@@ -34,6 +34,7 @@ namespace Volume_Calculator
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -85,6 +86,7 @@ namespace Volume_Calculator
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.White;
+            this.tabPage1.Controls.Add(this.button7);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.textBox1);
@@ -96,6 +98,20 @@ namespace Volume_Calculator
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Sphere";
             this.tabPage1.ToolTipText = "Calculate the Volume of a Sphere";
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Lime;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(372, 141);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(129, 33);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Clear";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label1
             // 
@@ -119,6 +135,7 @@ namespace Volume_Calculator
             this.button1.TabIndex = 2;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabPage2
             // 
@@ -382,6 +399,8 @@ namespace Volume_Calculator
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label answerLabel;
     }
 }
 
