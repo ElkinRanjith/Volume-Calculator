@@ -64,5 +64,24 @@ namespace Volume_Calculator
         {
             this.tabPage1.Controls.Remove(this.answerLabel);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            String edgeSizeText = this.textBox4.Text;
+            Double edge = Double.Parse(edgeSizeText);
+
+            Double answerDouble = Math.Pow(edge, 3);
+
+            String answer = answerDouble.ToString();
+            answerLabel2 = new Label();
+            answerLabel2.Text = answer;
+
+            this.tabPage3.Controls.Add(answerLabel2);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.tabPage3.Controls.Remove(this.answerLabel2);
+        }
     }
 }
