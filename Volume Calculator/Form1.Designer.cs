@@ -34,6 +34,7 @@ namespace Volume_Calculator
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -59,6 +60,7 @@ namespace Volume_Calculator
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -89,6 +91,7 @@ namespace Volume_Calculator
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.White;
+            this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.button7);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.button1);
@@ -101,6 +104,16 @@ namespace Volume_Calculator
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Sphere";
             this.tabPage1.ToolTipText = "Calculate the Volume of a Sphere";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(123, 295);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(137, 25);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Your Answer Is: ";
             // 
             // button7
             // 
@@ -223,6 +236,7 @@ namespace Volume_Calculator
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label9);
             this.tabPage3.Controls.Add(this.button9);
             this.tabPage3.Controls.Add(this.button5);
             this.tabPage3.Controls.Add(this.label5);
@@ -397,6 +411,16 @@ namespace Volume_Calculator
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(123, 295);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(137, 25);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "Your Answer Is: ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -457,6 +481,8 @@ namespace Volume_Calculator
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label answerLabel2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }
 
