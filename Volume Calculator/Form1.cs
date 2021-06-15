@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -40,6 +40,29 @@ namespace Volume_Calculator
         private void tabPage4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String text = this.textBox1.Text;
+            Double radius = Double.Parse(text);
+            Double pi = Math.PI;
+
+            Double radiusCubed = Math.Pow(radius, 3);
+
+            Double answer = radiusCubed * pi * 4/3;
+            String answerText = answer.ToString();
+
+            this.answerLabel = new Label();
+            this.answerLabel.Text = answerText;
+
+            this.tabPage1.Controls.Add(this.answerLabel);
+            
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.tabPage1.Controls.Remove(this.answerLabel);
         }
     }
 }
