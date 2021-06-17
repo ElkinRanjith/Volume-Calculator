@@ -209,6 +209,7 @@ namespace Volume_Calculator
             this.button8.TabIndex = 8;
             this.button8.Text = "Clear";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // textBox3
             // 
@@ -258,6 +259,7 @@ namespace Volume_Calculator
             this.button4.TabIndex = 3;
             this.button4.Text = "Calculate";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // tabPage3
             // 
@@ -649,6 +651,8 @@ namespace Volume_Calculator
         private System.Windows.Forms.Label answerLabel3;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label answerLabel4;
+        private System.Windows.Forms.Label answerLabel5;
+
     }
 }
 
