@@ -125,5 +125,30 @@ namespace Volume_Calculator
         {
             this.tabPage5.Controls.Remove(answerLabel3);
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            String text = this.textBox5.Text;
+            String text2 = this.textBox6.Text;
+            Double radius = Double.Parse(text);
+            Double height = Double.Parse(text2);
+            Double radiusSquared = Math.Pow(radius, 2);
+
+            Double areaOfCircle = radiusSquared * Math.PI;
+
+            Double volume = areaOfCircle * height;
+
+            String answer = volume.ToString();
+            answerLabel4 = new Label();
+            answerLabel4.Text = answer;
+            answerLabel4.Font = new Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            answerLabel4.Location = new Point(263, 298);
+            this.tabPage4.Controls.Add(this.answerLabel4);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.tabPage4.Controls.Remove(this.answerLabel4);
+        }
     }
 }
