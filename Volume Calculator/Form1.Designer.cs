@@ -70,16 +70,26 @@ namespace Volume_Calculator
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -539,6 +549,118 @@ namespace Volume_Calculator
             this.textBox7.Size = new System.Drawing.Size(150, 34);
             this.textBox7.TabIndex = 6;
             // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.label19);
+            this.tabPage6.Controls.Add(this.button14);
+            this.tabPage6.Controls.Add(this.button13);
+            this.tabPage6.Controls.Add(this.label18);
+            this.tabPage6.Controls.Add(this.label17);
+            this.tabPage6.Controls.Add(this.label16);
+            this.tabPage6.Controls.Add(this.textBox12);
+            this.tabPage6.Controls.Add(this.textBox11);
+            this.tabPage6.Controls.Add(this.textBox10);
+            this.tabPage6.Location = new System.Drawing.Point(4, 29);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(657, 633);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Rectangular Prism";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(81, 410);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(137, 25);
+            this.label19.TabIndex = 18;
+            this.label19.Text = "Your Answer Is: ";
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Red;
+            this.button14.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.ForeColor = System.Drawing.Color.White;
+            this.button14.Location = new System.Drawing.Point(352, 303);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(129, 33);
+            this.button14.TabIndex = 17;
+            this.button14.Text = "Clear";
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.Lime;
+            this.button13.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Location = new System.Drawing.Point(352, 249);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(129, 33);
+            this.button13.TabIndex = 16;
+            this.button13.Text = "Calculate";
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(97, 255);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(77, 22);
+            this.label18.TabIndex = 15;
+            this.label18.Text = "Height:";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(97, 168);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(70, 22);
+            this.label17.TabIndex = 14;
+            this.label17.Text = "Width:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(97, 83);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(79, 22);
+            this.label16.TabIndex = 13;
+            this.label16.Text = "Length:";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(186, 249);
+            this.textBox12.Multiline = true;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(150, 34);
+            this.textBox12.TabIndex = 12;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(186, 162);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(150, 34);
+            this.textBox11.TabIndex = 6;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(186, 78);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(150, 34);
+            this.textBox10.TabIndex = 5;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -575,16 +697,6 @@ namespace Volume_Calculator
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 29);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(657, 633);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Rectangular Prism";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -609,6 +721,8 @@ namespace Volume_Calculator
             this.tabPage4.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -665,6 +779,16 @@ namespace Volume_Calculator
         private System.Windows.Forms.Label answerLabel4;
         private System.Windows.Forms.Label answerLabel5;
         private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label answerLabel6;
     }
 }
 
