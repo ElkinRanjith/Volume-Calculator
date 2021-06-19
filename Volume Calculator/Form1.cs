@@ -178,5 +178,31 @@ namespace Volume_Calculator
         {
             this.tabPage2.Controls.Remove(this.answerLabel5);
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            String text = this.textBox10.Text;
+            String text2 = this.textBox11.Text;
+            String text3 = this.textBox12.Text;
+
+            Double length = Double.Parse(text);
+            Double width = Double.Parse(text2);
+            Double height = Double.Parse(text3);
+
+            Double volume = length * width * height;
+
+            String answer = volume.ToString();
+            answerLabel6 = new Label();
+            answerLabel6.Text = answer;
+            answerLabel6.Font = new Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            answerLabel6.Location = new Point(224, 410);
+
+            this.tabPage6.Controls.Add(this.answerLabel6);
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.tabPage6.Controls.Remove(this.answerLabel6);
+        }
     }
 }
